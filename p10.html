@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Práctica 10. Zebra Striped Table</title>
+  <h1>Práctica 10. Zebra Striped Table</h1>
+</head>
+<body>
+  <style>
+  table.stripped{
+    border:1px solid black;
+    border-collapse: collapse;
+
+  }
+
+  table.stripped td,
+  table.stripped th {
+    border:1px solid black;
+
+  }
+
+  table-layout:.stripped:nth-child(even){
+    background-color: grey
+
+  }
+
+  </style>
+
+
+
+  <table class="stripped">
+
+<table class="stripped">
+
+
+
+
+  <tr>
+    <th>Nombre</th>
+    <th>Voltaje(V)</th>
+    <th>Corriente(mA)</th>
+  </tr>
+  <tr>
+    <td>Diodo Led</td>
+    <td>3,3</td>
+    <td>20ma</td>
+  </tr>
+  <tr>
+    <td>Potenciometro</td>
+    <td>24v</td>
+    <td>100ma</td>
+  </tr>
+  <tr>
+    <td>Motor DC</td>
+    <td>12v</td>
+    <td>40ma</td>
+  </tr>
+  <tr>
+    <td>LDR</td>
+    <td>12v</td>
+    <td>100ma</td>
+  </tr>
+  <tr>
+    <td>Transistor NPN 2n2222</td>
+    <td>80v</td>
+    <td>100ma</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
